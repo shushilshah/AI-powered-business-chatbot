@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+openai
+streamlit
+seaborn
+pandas
+numpy
+pymongo
+python-multipart
+loguru
+python-dotenv
+from_root
+ipykernel
+langchain-community
