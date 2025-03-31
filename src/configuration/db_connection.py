@@ -11,7 +11,7 @@ load_dotenv()
 # mongodb credentials
 mongo_uri = os.getenv("MONGO_URI")
 mongo_db = os.getenv("MONGO_DB")
-# mongo_collection = os.getenv("MONGO_COLLECTION")
+
 
 if not all([mongo_uri, mongo_db]):
     raise MyException(
@@ -49,18 +49,3 @@ try:
 
 except MyException as e:
     print(f"Error connecting to MongoDB: {e}")
-
-
-# # reading data from local
-# df = pd.read_csv("")
-
-# # Connect to mongodb
-# client = MongoClient(mongo_uri)
-# db = client[mongo_db]
-# collection = db[mongo_collection]
-
-# # Inserting data to the database
-# collection.delete_many({})
-# collection.insert_many(df.to_dict(orient='records'))
-
-# print("Data stored to the mongodb successfully....")
