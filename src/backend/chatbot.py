@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-openai_api_key = os.get_env("OPENAI_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 llm = OpenAI(api_key=openai_api_key)
 template = """you are BizBuddy AI, a helpful Assistant. Answer the following questions: {user_message}"""
 
