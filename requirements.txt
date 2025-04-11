@@ -13,3 +13,10 @@ python-dotenv
 from_root
 ipykernel
 langchain-community
+faker
+scikit-learn
+plotly-express
+dill
+python-multipart
+certifi
+-e .
