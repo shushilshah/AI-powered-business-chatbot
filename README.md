@@ -28,14 +28,14 @@
 
 ## 🧱 Tech Stack
 
-| Component      | Tech                         |
-| -------------- | ---------------------------- |
-| Frontend       | Streamlit                    |
-| Backend        | Python, FastAPI              |
-| LLM Framework  | LangChain                    |
-| Database       | MongoDB Atlas                |
-| Data           | Synthetic (Faker)            |
-| Visualizations | Matplotlib / Plotly / Altair |
+| Component      | Tech                          |
+| -------------- | ----------------------------- |
+| Frontend       | Streamlit                     |
+| Backend        | Python, FastAPI               |
+| LLM Framework  | LangChain                     |
+| Database       | MongoDB Atlas                 |
+| Data           | Synthetic (Faker)             |
+| Visualizations | Matplotlib / Plotly / Seaborn |
 
 ---
 
