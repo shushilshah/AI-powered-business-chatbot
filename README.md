@@ -39,4 +39,30 @@
 
 ---
 
-## 📂 Project Structure
+## 🔍 Insights Provided
+
+✅ Total Sales, Revenue, and Orders
+
+🛍️ Top Products by Quantity and Revenue
+
+👤 Top Customers with CLV (Customer Lifetime Value)
+
+📅 Sales Trends Over Time
+
+🎯 Active Users and Repeat Buyers
+
+🕒 Average Support Ticket Resolution Time
+
+🌟 Product Rating Distributions
+
+## 🎯 Future Enhancements
+
+✅ Connect to real business data sources
+
+📧 Add Email summarizer for key reports
+
+🧾 Add PDF/CSV report downloads from chat
+
+🌐 Deploy via Streamlit Cloud or Render
+
+📤 User can upload their own data and chat for insights
